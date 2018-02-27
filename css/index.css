@@ -1,3 +1,30 @@
-div {
-  border: 1px solid black;
+.logo-img{
+  height: 80px;
+}
+
+.articulo{
+  padding: 20px;
+}
+
+.redes{
+position: absolute;
+bottom:0px;
+right: 10px;
+}
+
+.contenedor-art > div:nth-child(odd){
+  background-color: #f8f9fa!important;
+}
+
+
+#navbarNavAltMarkup div > a{
+  margin-right: 10px;
+}
+
+#menu button {
+  margin-left: 10px;
+}
+
+.articulo div > img {
+  width: 100%;
 }

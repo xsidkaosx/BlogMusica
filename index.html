@@ -9,38 +9,157 @@
     <title></title>
   </head>
   <body>
-    <div class="containter-fluid">
-        <div class="row">
-          <div class="col-md-2">
-              <img class='logo-img' src='img/logo-filled.png'/>
+    <div class="container-fluid">
+        <div class="row mb-3">
+          <div class="col-md-2 col-lg-2">
+              <img class='logo-img' src='img/audio.svg'/>
           </div>
-          <div class="col-md-4 offset-md-6 text-right">
-            <img src="img/facebook.png" alt="facebook icon">
-            <img src="img/twitter.png" alt="facebook icon">
-            <img src="img/instagram.png" alt="facebook icon">
+          <div class="col-md-4 col-lg-4 offset-md-6 offset-md-6 text-right">
+            <div class="redes">
+              <img src="img/facebook.png" alt="facebook icon">
+              <img src="img/twitter.png" alt="facebook icon">
+              <img src="img/instagram.png" alt="facebook icon">
+            </div>
           </div>
         </div>
         <div class="row">
-          <nav class='navbar navbar-inverse navbar-fixed-top affix-top'>
+          <div class="col-md-12">
+            <!--<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+              <a class="navbar-brand" href="#">Navbar</a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-item nav-link active" href="#">Inicio <span class="sr-only">(current)</span></a>
+                  <a class="nav-item nav-link" href="#">Artistas</a>
+                  <a class="nav-item nav-link" href="#">Grupos</a>
+                  <a class="nav-item nav-link" href="#">Top 10</a>
+                  <a class="nav-item nav-link" href="#">Letras</a>
+                  <a class="nav-item nav-link" href="#">Acordes</a>
+                </div>
+              </div>
+            </nav>-->
+            <nav id="menu" class='navbar navbar-dark bg-dark'>
+              <form class="form-inline">
+                <button class="btn btn-secondary active" type="button">Inicio</button>
+                <button class="btn btn-secondary" type="button">Artistas</button>
+                <button class="btn btn-secondary" type="button">Grupos</button>
+                <button class="btn btn-secondary" type="button">Top 10</button>
+                <button class="btn btn-secondary" type="button">Letras</button>
+                <button class="btn btn-secondary" type="button">Acordes</button>
+              </form>
+            </nav>
+          </div>
+
+          <!--<nav class='navbar navbar-dark bg-dark'>
             <form class="form-inline">
-              <button class="btn btn-outline-success" type="button">Main button</button>
+              <button class="btn btn-outline-success active" type="button">Main button</button>
               <button class="btn btn-outline-secondary" type="button">Smaller button</button>
               <button class="btn btn-outline-secondary" type="button">Smaller button</button>
               <button class="btn btn-outline-secondary" type="button">Smaller button</button>
               <button class="btn btn-outline-secondary" type="button">Smaller button</button>
               <button class="btn btn-outline-secondary" type="button">Smaller button</button>
             </form>
-          </nav>
+          </nav>-->
         </div>
         <div class="row">
-          <div class="col-md-8">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          <div class="col-md-8 contenedor-art">
+            <div class="row articulo">
+              <div class="col-md-8 text-justify">
+                <h1>Titulo Articulo</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+              <div class="col-md-4 text-center">
+                <img src="img/festival.jpg" alt="imagen1">
+              </div>
+              <div class="col-md-12">
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text"><img height="25px" src="img/comment.png" alt="iconoComentario"></span>
+                  </div>
+                  <textarea class="form-control" aria-label="With textarea" placeholder="Dejar el comentario en esta caja..."></textarea>
+                </div>
+              </div>
+            </div>
+            <hr>
+            <div class="row articulo">
+              <div class="col-md-4 text-center">
+                <img src="img/concert.jpg" alt="imagen1">
+              </div>
+              <div class="col-md-8 text-justify">
+                <h1>Titulo Articulo</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+              <div class="col-md-12">
+                <div class="input-group">
+                  <textarea class="form-control" aria-label="With textarea" placeholder="Dejar el comentario en esta caja..."></textarea>
+                  <div class="input-group-append">
+                    <span class="input-group-text"><img height="25px" src="img/comment.png" alt="iconoComentario"></span>
+                  </div>
+              </div>
+              </div>
+            </div>
+            <hr>
+            <div class="row articulo">
+              <div class="col-md-8 text-justify">
+                <h1>Titulo Articulo</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+              <div class="col-md-4 text-center">
+                <img src="img/notas.jpg" alt="imagen1">
+              </div>
+              <div class="col-md-12">
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text"><img height="25px" src="img/comment.png" alt="iconoComentario"></span>
+                  </div>
+                  <textarea class="form-control" aria-label="With textarea" placeholder="Dejar el comentario en esta caja..."></textarea>
+                </div>
+              </div>
+            </div>
+            <hr>
           </div>
+
           <div class="col-md-4">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            <div class="row">
+              <div class="col-md-12 bg-light">
+                <form class="input-group mt-5">
+                  <div class="input-group-prepend">
+                    <div class="input-group-text"><img height="16px" src="img/search.png" alt=""> </div>
+                  </div>
+                  <input class="form-control" type="search" name="Busqueda" value="">
+                </form>
+                <label class="" for="inlineFormCustomSelect">Busqueda</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <div class="lista">
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Cras justo odio</li>
+                    <li class="list-group-item">Dapibus ac facilisis in</li>
+                    <li class="list-group-item">Morbi leo risus</li>
+                    <li class="list-group-item">Porta ac consectetur ac</li>
+                    <li class="list-group-item">Vestibulum at eros</li>
+                    <li class="list-group-item">Cras justo odio</li>
+                    <li class="list-group-item">Dapibus ac facilisis in</li>
+                    <li class="list-group-item">Morbi leo risus</li>
+                    <li class="list-group-item">Porta ac consectetur ac</li>
+                    <li class="list-group-item">Vestibulum at eros</li>
+                    <li class="list-group-item">Cras justo odio</li>
+                    <li class="list-group-item">Dapibus ac facilisis in</li>
+                    <li class="list-group-item">Morbi leo risus</li>
+                    <li class="list-group-item">Porta ac consectetur ac</li>
+                    <li class="list-group-item">Vestibulum at eros</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
     </div>
 
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
   </body>
 </html>
