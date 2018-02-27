@@ -18,13 +18,5 @@ right: 10px;
 
 
 #navbarNavAltMarkup div > a{
-  margin-right: 10px;
-}
-
-#menu button {
-  margin-left: 10px;
-}
-
-.articulo div > img {
-  width: 100%;
+  margin-right: 30px;
 }
